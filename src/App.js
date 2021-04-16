@@ -1,26 +1,64 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useState} from 'react';
 import './App.css';
+import Register from "./components/user/Register";
+import Login from "./components/user/Login";
+import Navbar from "./components/common/Navbar";
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route, Redirect,
+} from "react-router-dom";
+import {getTokenProvider} from "./auth/TokenProvider";
+import TitlePanel from "./components/common/TitlePanel";
+import Interval from "./components/interval/Interval";
+import {Logout} from "./components/user/Logout";
+import {IntervalDetails} from "./components/interval/IntervalDetails";
+import {IntervalStats} from "./components/intervalstats/IntervalStats";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const buildLinks = token => {
+    let links = [];
+
+    if (token) { //todo: implement isLoggedIn
+        links.push({name: 'Interwały', href: '/intervals', align: 'left'});
+        links.push({name: 'Wyloguj', href: '/logout', align: 'right'});
+    } else {
+        links.push({name: 'Rejestracja', href: '/register', align: 'left'});
+        links.push({name: 'Zaloguj', href: '/login', align: 'left'});
+    }
+
+    return links;
+};
+
+const App = () => {
+    const tokenProvider = getTokenProvider();
+    const token = tokenProvider.getToken();
+    const links = buildLinks(token);
+
+
+    return (
+        <Router>
+            <Navbar links={links}/>
+            <TitlePanel/>
+            <Switch>
+                <Route path='/register'>
+                    <Register token={token}/>
+                </Route>
+                <Route path={'/login'}>
+                    {null === token ? <Login /> : <Redirect to='/intervals'/>}
+                </Route>
+                <Route path={'/intervals'}>
+                    <Interval/>
+                </Route>
+                <Route path={'/interval/:intervalId'} component={IntervalDetails}>
+                </Route>
+                <Route path={'/intervalStats/:intervalId'} component={IntervalStats}>
+                </Route>
+                <Route path={'/logout'}>
+                    <Logout />
+                </Route>
+            </Switch>
+        </Router>
+    );
+};
 
 export default App;
