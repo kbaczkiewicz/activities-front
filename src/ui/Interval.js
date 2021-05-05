@@ -6,7 +6,7 @@ import {translateIntervalStatus} from "../util/StatusTranslator";
 export const mapListFromModel = (interval, key) => (
     <tr key={key} id={`interval-${interval.id}`}>
         <td>{interval.name}</td>
-        <td>{interval.status}</td>
+        <td>{translateIntervalStatus(interval.status)}</td>
         <td>{interval.dateStart}</td>
         <td>{interval.dateEnd}</td>
         <td>
@@ -19,7 +19,7 @@ export const mapListFromModel = (interval, key) => (
 export const mapEndedFromModel = (interval, key) => (
     <tr key={key} id={`interval-${interval.id}`}>
         <td>{interval.name}</td>
-        <td>{interval.status}</td>
+        <td>{translateIntervalStatus(interval.status)}</td>
         <td>{interval.dateStart}</td>
         <td>{interval.dateEnd}</td>
         <td>

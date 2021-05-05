@@ -39,9 +39,6 @@ export const AddActivity = props => {
                         <th>
                             Typ
                         </th>
-                        <th>
-                            Data pierwszego wystąpienia
-                        </th>
                     </tr>
                     </thead>
                     <tbody>

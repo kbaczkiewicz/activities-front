@@ -7,7 +7,7 @@ export const translateIntervalStatus = status => {
         'ended': 'Zakończony'
     };
 
-    for (const [key, value] in statuses) {
+    for (const [key, value] of Object.entries(statuses)) {
         if (key === status) {
             return value;
         }
