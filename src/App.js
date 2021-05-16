@@ -56,6 +56,9 @@ const App = () => {
                 <Route path={'/logout'}>
                     <Logout />
                 </Route>
+                <Route path='/'>
+                    {<Redirect to='/login'/>}
+                </Route>
             </Switch>
         </Router>
     );

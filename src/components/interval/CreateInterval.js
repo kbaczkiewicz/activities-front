@@ -22,7 +22,7 @@ const saveNewInterval = async refs => { //@todo: stop using refs, instead search
             null,
             activity.refs.name.current.value,
             activity.refs.type.current.value,
-            activity.refs.dateStart.current.value
+            dateStartInput.current.value
         );
     });
 
