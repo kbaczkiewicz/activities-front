@@ -2,7 +2,6 @@ import React from "react";
 import {onMarkActivityAsDone} from "../eventhandlers/ActivityEventHandler";
 
 export const mapFromModelAsColumnList = activities => {
-    console.log(activities);
     return activities && activities.length
         ? (
             <div className='row'>

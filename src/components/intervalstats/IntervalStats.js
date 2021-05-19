@@ -13,8 +13,6 @@ export const IntervalStats = props => {
         getIntervalStats(props.match.params.intervalId).then((data) => setStats(data));
     }, []);
 
-
-
     return (
         <div className='container'>
             <div className='row'>

@@ -17,7 +17,6 @@ const mapInterval = async (setInterval, intervalId) => {
 
         setInterval(mapSingleFromModel(interval, activities));
     } catch (e) {
-        console.error(e);
         window.location.href = '/intervals';
         addMessage('interval', new Message('danger', 'Nie ma takiego interwału'));
     }
