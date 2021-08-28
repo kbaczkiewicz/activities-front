@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './App.css';
 import Register from "./components/user/Register";
 import Login from "./components/user/Login";
@@ -14,12 +14,17 @@ import Interval from "./components/interval/Interval";
 import {Logout} from "./components/user/Logout";
 import {IntervalDetails} from "./components/interval/IntervalDetails";
 import {IntervalStats} from "./components/intervalstats/IntervalStats";
+import {Profile} from "./components/user/Profile";
+import {ChangePassword} from "./components/user/ChangePassword";
+import {ActivityList} from "./components/interval/activities/ActivityList";
+import {DeleteIntervalModal} from "./components/common/DeleteIntervalModal";
 
 const buildLinks = token => {
     let links = [];
 
     if (token) { //todo: implement isLoggedIn
         links.push({name: 'Interwały', href: '/intervals', align: 'left'});
+        links.push({name: 'Profil', href: '/profile', align: 'right'});
         links.push({name: 'Wyloguj', href: '/logout', align: 'right'});
     } else {
         links.push({name: 'Rejestracja', href: '/register', align: 'left'});
@@ -40,26 +45,35 @@ const App = () => {
             <Navbar links={links}/>
             <TitlePanel/>
             <Switch>
+                <Route path='/profile'>
+                    {null !== token ? <Profile/> : <Redirect to='/login'/>}
+                </Route>
+                <Route path='/change-password'>
+                    {null !== token ? <ChangePassword/> : <Redirect to='/login'/>}
+                </Route>
                 <Route path='/register'>
                     <Register token={token}/>
                 </Route>
                 <Route path={'/login'}>
-                    {null === token ? <Login /> : <Redirect to='/intervals'/>}
+                    {null === token ? <Login/> : <Redirect to='/intervals'/>}
                 </Route>
                 <Route path={'/intervals'}>
                     <Interval/>
+                </Route>
+                <Route path={'/interval/:intervalId/activities'} component={ActivityList}>
                 </Route>
                 <Route path={'/interval/:intervalId'} component={IntervalDetails}>
                 </Route>
                 <Route path={'/intervalStats/:intervalId'} component={IntervalStats}>
                 </Route>
                 <Route path={'/logout'}>
-                    <Logout />
+                    <Logout/>
                 </Route>
                 <Route path='/'>
                     {<Redirect to='/login'/>}
                 </Route>
             </Switch>
+            <DeleteIntervalModal />
         </Router>
     );
 };

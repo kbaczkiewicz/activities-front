@@ -1,11 +1,17 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import {getMessages} from "../../service/MessageService";
 
 export const Messages = props => {
+    const [messages, setMessages] = useState([]);
+
+    useEffect(() => {
+        setMessages(messages.length ? messages : getMessages(props.sessionKey));
+    }, []);
+
     return (
           <div className='row'>
               <div className='col'>
-                  {renderMessages(getMessages(props.sessionKey))}
+                  {renderMessages(messages)}
               </div>
           </div>
     );

@@ -2,20 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0185c3b4-9eeb-4d9a-81eb-90c2e339fac1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/common/DeleteIntervalModal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/user/ChangePassword.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/user/Profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/ChartService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/SavedActivityService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/User.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/Client.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/Client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Messages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/interval/CreateInterval.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/interval/CreateInterval.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/interval/IntervalDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/interval/IntervalDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/interval/activities/ActivityList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/interval/activities/ActivityList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/intervalstats/IntervalStats.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/intervalstats/IntervalStats.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/user/Logout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/user/Logout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eventhandlers/IntervalEventHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/eventhandlers/IntervalEventHandler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/models.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/models.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/ActivityService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/ActivityService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/IntervalService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/IntervalService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/service/IntervalStatsService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/IntervalStatsService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/Interval.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Interval.js" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -31,120 +50,42 @@
     <expand />
     <select />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/interval/IntervalList.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/interval/CreateInterval.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/interval/IntervalDetails.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9">
-              <folding>
-                <element signature="e#0#49#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/intervalstats/IntervalStats.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/service/IntervalStatsService.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/interval/activities/AddActivity.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="50" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/util/StatusTranslator.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>saveNewInterval</find>
       <find>localhost</find>
+      <find>console.log(</find>
+      <find>cons</find>
+      <find>console.l</find>
+      <find>console.lo</find>
+      <find>console.</find>
+      <find>e.target</find>
+      <find>form</find>
+      <find>throw</find>
+      <find>window.location.hr</find>
+      <find>addMessage</find>
+      <find>}</find>
+      <find>props.ma</find>
+      <find>email, activeIntervals, endedIntervals, intervalsToStart, completedActivities, failedActivities</find>
+      <find>console.log</find>
+      <find>.entries</find>
+      <find>{</find>
+      <find>onIntervalDelete</find>
+      <find>deleteIntervalModal</find>
+      <find>.parent</find>
+      <find>addMessa</find>
+      <find>add</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -153,12 +94,36 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/util/StatusTranslator.js" />
-        <option value="$PROJECT_DIR$/src/ui/Interval.js" />
         <option value="$PROJECT_DIR$/src/components/interval/activities/AddActivity.js" />
-        <option value="$PROJECT_DIR$/src/components/interval/CreateInterval.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/ui/Activity.js" />
+        <option value="$PROJECT_DIR$/src/service/ActivityTypeService.js" />
+        <option value="$PROJECT_DIR$/src/service/UserService.js" />
+        <option value="$PROJECT_DIR$/src/service/User.js" />
+        <option value="$PROJECT_DIR$/src/components/user/ChangePassword.js" />
+        <option value="$PROJECT_DIR$/src/service/ActivityService.js" />
+        <option value="$PROJECT_DIR$/src/service/IntervalService.js" />
+        <option value="$PROJECT_DIR$/src/components/user/Logout.js" />
+        <option value="$PROJECT_DIR$/src/components/interval/activities/ActivityList.js" />
+        <option value="$PROJECT_DIR$/src/client/Client.js" />
+        <option value="$PROJECT_DIR$/src/service/SavedActivityService.js" />
+        <option value="$PROJECT_DIR$/src/components/common/Navbar.js" />
+        <option value="$PROJECT_DIR$/src/components/interval/IntervalDetails.js" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_2.js" />
+        <option value="$PROJECT_DIR$/src/models/models.js" />
+        <option value="$PROJECT_DIR$/src/components/intervalstats/IntervalStatsChart.js" />
         <option value="$PROJECT_DIR$/src/service/IntervalStatsService.js" />
+        <option value="$PROJECT_DIR$/src/service/ChartService.js" />
         <option value="$PROJECT_DIR$/src/components/intervalstats/IntervalStats.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/ui/Interval.js" />
+        <option value="$PROJECT_DIR$/src/components/common/DeleteIntervalModal.js" />
+        <option value="$PROJECT_DIR$/src/eventhandlers/IntervalEventHandler.js" />
+        <option value="$PROJECT_DIR$/src/components/interval/Interval.js" />
+        <option value="$PROJECT_DIR$/src/components/interval/CreateInterval.js" />
+        <option value="$PROJECT_DIR$/src/service/MessageService.js" />
+        <option value="$PROJECT_DIR$/src/components/common/Messages.js" />
+        <option value="$PROJECT_DIR$/src/components/user/Profile.js" />
       </list>
     </option>
   </component>
@@ -166,6 +131,7 @@
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
+  <component name="ProjectId" id="1xHJITDEXtccirfYBptSnZuBDAD" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -182,6 +148,11 @@
             <path>
               <item name="activities-front" type="b2602c69:ProjectViewProjectNode" />
               <item name="activities-front" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activities-front" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activities-front" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -195,14 +166,7 @@
               <item name="activities-front" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="interval" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="activities-front" type="b2602c69:ProjectViewProjectNode" />
-              <item name="activities-front" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="intervalstats" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -210,28 +174,30 @@
       </pane>
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JavaScript 1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/interval/activities" />
+    </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -255,17 +221,39 @@
       <workItem from="1621156169718" duration="30000" />
       <workItem from="1621172297848" duration="3135000" />
       <workItem from="1621360194309" duration="1245000" />
+      <workItem from="1622490592338" duration="32000" />
+      <workItem from="1622901542682" duration="12887000" />
+      <workItem from="1623261011196" duration="81000" />
+      <workItem from="1623261117459" duration="1028000" />
+      <workItem from="1624007332399" duration="18000" />
+      <workItem from="1624389707890" duration="1721000" />
+      <workItem from="1624461006933" duration="2725000" />
+      <workItem from="1624546480434" duration="10000" />
+      <workItem from="1624553009677" duration="6720000" />
+      <workItem from="1624979639598" duration="5279000" />
+      <workItem from="1625068244789" duration="6869000" />
+      <workItem from="1625254735515" duration="11000" />
+      <workItem from="1625500384472" duration="3566000" />
+      <workItem from="1630006002826" duration="286000" />
+      <workItem from="1630173677890" duration="701000" />
     </task>
+    <task id="LOCAL-00001" summary="remove console.logs">
+      <created>1621443122383</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621443122383</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11400000" />
+    <option name="totallyTimeSpent" value="52779000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="28" width="1440" height="872" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21387696" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32747602" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -280,7 +268,9 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.33291772" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.37425742" />
+      <window_info anchor="bottom" id="Command Line Tools Console" order="12" weight="0.32970297" />
+      <window_info anchor="bottom" id="TypeScript" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -288,7 +278,11 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="remove console.logs" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove console.logs" />
   </component>
   <component name="editorHistoryManager">
     <entry file="uml://JavaScript-modules-diagram//Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/common/Messages.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/common/Navbar.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/common/TitlePanel.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Login.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Logout.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Register.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/intervalstats/IntervalStats.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalList.js;">
@@ -545,268 +539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="uml://JavaScript-modules-diagram//Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/activities/ActivityList.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/activities/AddActivity.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalList.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/intervalstats/IntervalStats.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Login.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Logout.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Register.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/common/Messages.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/common/Navbar.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/common/TitlePanel.js;">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JavaScript-modules-diagram</ID>
-          <OriginalElement>$PROJECT_DIR$/src/components/interval/activities/ActivityList.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/activities/AddActivity.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalList.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/intervalstats/IntervalStats.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Login.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Logout.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Register.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/common/Messages.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/common/Navbar.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/common/TitlePanel.js;</OriginalElement>
-          <nodes>
-            <node x="1294.0" y="1954.0">$PROJECT_DIR$/src/service/ActivityService.js#addActivity#262;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/service/ActivityService.js#getActivities#399;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/service/ActivityService.js#saveActivity#101;</node>
-            <node x="640.0" y="1496.0">$PROJECT_DIR$/src/service/ActivityTypeService.js#getActivityTypes#105;</node>
-            <node x="1457.5" y="1685.0">$PROJECT_DIR$/src/components/interval/activities/AddActivity.js#AddActivity#803;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/activities/AddActivity.js#React#7;</node>
-            <node x="388.0" y="96.0">$PROJECT_DIR$/src/service/AuthService.js#getAuthService#296;</node>
-            <node x="2849.0" y="2776.0">$PROJECT_DIR$/src/client/Client.js#Client#84;</node>
-            <node x="974.0" y="1586.0">$PROJECT_DIR$/src/components/interval/CreateInterval.js#Activity#169;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#AddActivity#47;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#CreateInterval#1446;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#Interval#179;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#addActivity#337;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#getActivityTypes#101;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#mapListFromModel#285;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#saveActivity#350;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#saveInterval#225;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#useState#15;</node>
-            <node x="386.5" y="626.0">$PROJECT_DIR$/src/components/interval/Interval.js#CreateInterval#92;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#IntervalList#47;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#Message#258;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#Messages#433;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#addMessage#201;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#getIntervals#141;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#getTokenProvider#303;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#mapEndedFromModel#362;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#mapListFromModel#381;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#useState#15;</node>
-            <node x="986.5" y="2194.0">$PROJECT_DIR$/src/ui/Interval.js#mapEndedFromModel#846;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/ui/Interval.js#mapListFromModel#294;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/ui/Interval.js#mapSingleFromModel#1248;</node>
-            <node x="2610.5" y="888.0">$PROJECT_DIR$/src/components/interval/IntervalDetails.js#Message#289;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#addMessage#232;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#getActivities#117;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#getInterval#58;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#mapSingleFromModel#178;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#parseDate#334;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#useEffect#15;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#useState#26;</node>
-            <node x="661.0" y="1194.0">$PROJECT_DIR$/src/components/interval/IntervalList.js#IntervalList#54;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalList.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalList.js#useEffect#15;</node>
-            <node x="2054.0" y="2434.0">$PROJECT_DIR$/src/service/IntervalService.js#getInterval#704;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/service/IntervalService.js#getIntervals#128;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/service/IntervalService.js#saveInterval#1040;</node>
-            <node x="2040.0" y="2063.0">$PROJECT_DIR$/src/components/intervalstats/IntervalStats.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/intervalstats/IntervalStats.js#getInterval#47;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/intervalstats/IntervalStats.js#getIntervalStats#106;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/intervalstats/IntervalStats.js#useState#15;</node>
-            <node x="1716.5" y="2096.0">$PROJECT_DIR$/src/service/IntervalStatsService.js#getIntervalStats#106;</node>
-            <node x="407.0" y="201.0">$PROJECT_DIR$/src/components/user/Login.js#Credentials#35;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Login.js#Message#48;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Login.js#Messages#151;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Login.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Login.js#addMessage#196;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Login.js#getAuthService#93;</node>
-            <node x="959.0" y="1005.0">$PROJECT_DIR$/src/components/user/Logout.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Logout.js#getTokenProvider#35;</node>
-            <node x="137.5" y="445.0">$PROJECT_DIR$/src/service/MessageService.js#addMessage#328;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/service/MessageService.js#getMessages#56;</node>
-            <node x="402.0" y="434.0">$PROJECT_DIR$/src/components/common/Messages.js#Messages#99;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/common/Messages.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/common/Messages.js#getMessages#35;</node>
-            <node x="1609.0" y="1325.0">$PROJECT_DIR$/src/components/common/Navbar.js#Link#8;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/common/Navbar.js#React#47;</node>
-            <node x="2849.0" y="2583.0">$PROJECT_DIR$/src/components/user/Register.js#Client#35;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Register.js#Credentials#79;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Register.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Register.js#Redirect#128;</node>
-            <node x="835.0" y="1376.0">$PROJECT_DIR$/src/components/common/TitlePanel.js#React#7;</node>
-            <node x="671.5" y="1016.0">$PROJECT_DIR$/src/auth/TokenProvider.js#getTokenProvider#517;</node>
-            <node x="2362.0" y="1296.0">$PROJECT_DIR$/src/util/dateparser.js#parseDate#13;</node>
-            <node x="2071.5" y="1205.0">$PROJECT_DIR$/node_modules/@types/react/index.d.ts#useEffect#47285;useState;</node>
-            <node x="2649.0" y="2583.0">$PROJECT_DIR$/src/models/models.js#Activity#1496;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/models/models.js#Credentials#0;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/models/models.js#Interval#247;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/models/models.js#Message#976;</node>
-            <node x="1805.0" y="1336.0">$PROJECT_DIR$/node_modules/react-router-dom/esm/react-router-dom.js#Link#5191;</node>
-            <node x="3073.0" y="2616.0">$PROJECT_DIR$/node_modules/react-router/esm/react-router.js#Redirect#7567;</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="$PROJECT_DIR$/src/components/common/Messages.js#Messages#99;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/common/Messages.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/common/Messages.js#getMessages#35;" target="$PROJECT_DIR$/src/service/MessageService.js#addMessage#328;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/service/MessageService.js#getMessages#56;">
-              <point x="-78.0" y="-0.0" />
-              <point x="102.5" y="-0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/components/common/Navbar.js#Link#8;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/common/Navbar.js#React#47;" target="$PROJECT_DIR$/node_modules/@types/react/index.d.ts#useEffect#47285;useState;">
-              <point x="0.0" y="-35.0" />
-              <point x="1680.0" y="1268.5714285714287" />
-              <point x="-88.5" y="28.57142857142867" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/components/common/TitlePanel.js#React#7;" target="$PROJECT_DIR$/node_modules/@types/react/index.d.ts#useEffect#47285;useState;">
-              <point x="0.0" y="-24.0" />
-              <point x="920.0" y="1245.7142857142858" />
-              <point x="-88.5" y="5.714285714285779" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/components/interval/IntervalDetails.js#Message#289;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#addMessage#232;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#getActivities#117;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#getInterval#58;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#mapSingleFromModel#178;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#parseDate#334;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#useEffect#15;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#useState#26;" target="$PROJECT_DIR$/src/service/IntervalService.js#getInterval#704;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/service/IntervalService.js#getIntervals#128;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/service/IntervalService.js#saveInterval#1040;">
-              <point x="-13.333333333333485" y="112.0" />
-              <point x="2706.6666666666665" y="2480.0" />
-              <point x="106.0" y="-0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/components/user/Register.js#Client#35;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Register.js#Credentials#79;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Register.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Register.js#Redirect#128;" target="$PROJECT_DIR$/node_modules/react-router/esm/react-router.js#Redirect#7567;">
-              <point x="71.0" y="-0.0" />
-              <point x="-127.0" y="-0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/components/interval/Interval.js#CreateInterval#92;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#IntervalList#47;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#Message#258;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#Messages#433;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#addMessage#201;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#getIntervals#141;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#getTokenProvider#303;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#mapEndedFromModel#362;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#mapListFromModel#381;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#useState#15;" target="$PROJECT_DIR$/src/components/common/Messages.js#Messages#99;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/common/Messages.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/common/Messages.js#getMessages#35;">
-              <point x="0.0" y="-134.0" />
-              <point x="0.0" y="46.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/components/user/Login.js#Credentials#35;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Login.js#Message#48;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Login.js#Messages#151;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Login.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Login.js#addMessage#196;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Login.js#getAuthService#93;" target="$PROJECT_DIR$/src/service/AuthService.js#getAuthService#296;">
-              <point x="0.0" y="-79.0" />
-              <point x="0.0" y="24.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/components/interval/Interval.js#CreateInterval#92;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#IntervalList#47;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#Message#258;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#Messages#433;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#addMessage#201;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#getIntervals#141;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#getTokenProvider#303;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#mapEndedFromModel#362;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#mapListFromModel#381;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#useState#15;" target="$PROJECT_DIR$/node_modules/@types/react/index.d.ts#useEffect#47285;useState;">
-              <point x="80.0" y="134.0" />
-              <point x="560.0" y="960.0" />
-              <point x="2106.6666666666665" y="960.0" />
-              <point x="-53.333333333333485" y="-35.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/components/intervalstats/IntervalStats.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/intervalstats/IntervalStats.js#getInterval#47;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/intervalstats/IntervalStats.js#getIntervalStats#106;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/intervalstats/IntervalStats.js#useState#15;" target="$PROJECT_DIR$/src/service/IntervalStatsService.js#getIntervalStats#106;">
-              <point x="-120.0" y="-0.0" />
-              <point x="123.5" y="-0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/components/interval/CreateInterval.js#Activity#169;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#AddActivity#47;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#CreateInterval#1446;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#Interval#179;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#addActivity#337;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#getActivityTypes#101;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#mapListFromModel#285;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#saveActivity#350;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#saveInterval#225;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#useState#15;" target="$PROJECT_DIR$/src/service/IntervalService.js#getInterval#704;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/service/IntervalService.js#getIntervals#128;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/service/IntervalService.js#saveInterval#1040;">
-              <point x="-106.0" y="80.0" />
-              <point x="920.0" y="1800.0" />
-              <point x="920.0" y="2440.0" />
-              <point x="-106.0" y="-40.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/components/interval/IntervalDetails.js#Message#289;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#addMessage#232;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#getActivities#117;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#getInterval#58;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#mapSingleFromModel#178;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#parseDate#334;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#useEffect#15;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#useState#26;" target="$PROJECT_DIR$/src/models/models.js#Activity#1496;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/models/models.js#Credentials#0;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/models/models.js#Interval#247;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/models/models.js#Message#976;">
-              <point x="0.0" y="112.0" />
-              <point x="0.0" y="-57.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/components/interval/IntervalDetails.js#Message#289;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#addMessage#232;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#getActivities#117;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#getInterval#58;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#mapSingleFromModel#178;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#parseDate#334;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#useEffect#15;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#useState#26;" target="$PROJECT_DIR$/node_modules/@types/react/index.d.ts#useEffect#47285;useState;">
-              <point x="-109.5" y="40.0" />
-              <point x="2560.0" y="1040.0" />
-              <point x="2560.0" y="1211.4285714285713" />
-              <point x="88.5" y="-28.57142857142867" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/components/interval/Interval.js#CreateInterval#92;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#IntervalList#47;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#Message#258;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#Messages#433;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#addMessage#201;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#getIntervals#141;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#getTokenProvider#303;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#mapEndedFromModel#362;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#mapListFromModel#381;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#useState#15;" target="$PROJECT_DIR$/src/service/IntervalService.js#getInterval#704;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/service/IntervalService.js#getIntervals#128;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/service/IntervalService.js#saveInterval#1040;">
-              <point x="10.0" y="134.0" />
-              <point x="490.0" y="2480.0" />
-              <point x="-106.0" y="-0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/components/user/Login.js#Credentials#35;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Login.js#Message#48;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Login.js#Messages#151;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Login.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Login.js#addMessage#196;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Login.js#getAuthService#93;" target="$PROJECT_DIR$/src/models/models.js#Activity#1496;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/models/models.js#Credentials#0;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/models/models.js#Interval#247;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/models/models.js#Message#976;">
-              <point x="-73.0" y="-0.0" />
-              <point x="0.0" y="280.0" />
-              <point x="0.0" y="2640.0" />
-              <point x="-71.0" y="-0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/components/interval/IntervalDetails.js#Message#289;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#addMessage#232;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#getActivities#117;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#getInterval#58;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#mapSingleFromModel#178;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#parseDate#334;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#useEffect#15;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#useState#26;" target="$PROJECT_DIR$/src/ui/Interval.js#mapEndedFromModel#846;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/ui/Interval.js#mapListFromModel#294;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/ui/Interval.js#mapSingleFromModel#1248;">
-              <point x="-26.666666666666515" y="112.0" />
-              <point x="2693.3333333333335" y="2240.0" />
-              <point x="93.5" y="-0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/components/interval/Interval.js#CreateInterval#92;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#IntervalList#47;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#Message#258;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#Messages#433;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#addMessage#201;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#getIntervals#141;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#getTokenProvider#303;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#mapEndedFromModel#362;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#mapListFromModel#381;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#useState#15;" target="$PROJECT_DIR$/src/components/interval/CreateInterval.js#Activity#169;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#AddActivity#47;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#CreateInterval#1446;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#Interval#179;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#addActivity#337;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#getActivityTypes#101;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#mapListFromModel#285;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#saveActivity#350;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#saveInterval#225;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#useState#15;">
-              <point x="40.0" y="134.0" />
-              <point x="520.0" y="1680.0" />
-              <point x="-106.0" y="-40.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/components/interval/Interval.js#CreateInterval#92;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#IntervalList#47;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#Message#258;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#Messages#433;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#addMessage#201;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#getIntervals#141;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#getTokenProvider#303;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#mapEndedFromModel#362;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#mapListFromModel#381;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#useState#15;" target="$PROJECT_DIR$/src/service/MessageService.js#addMessage#328;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/service/MessageService.js#getMessages#56;">
-              <point x="-93.5" y="-0.0" />
-              <point x="240.0" y="760.0" />
-              <point x="0.0" y="35.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/components/interval/CreateInterval.js#Activity#169;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#AddActivity#47;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#CreateInterval#1446;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#Interval#179;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#addActivity#337;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#getActivityTypes#101;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#mapListFromModel#285;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#saveActivity#350;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#saveInterval#225;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#useState#15;" target="$PROJECT_DIR$/src/models/models.js#Activity#1496;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/models/models.js#Credentials#0;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/models/models.js#Interval#247;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/models/models.js#Message#976;">
-              <point x="-106.0" y="40.0" />
-              <point x="880.0" y="1760.0" />
-              <point x="880.0" y="2600.0" />
-              <point x="-71.0" y="-40.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/components/user/Register.js#Client#35;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Register.js#Credentials#79;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Register.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Register.js#Redirect#128;" target="$PROJECT_DIR$/node_modules/@types/react/index.d.ts#useEffect#47285;useState;">
-              <point x="0.0" y="-57.0" />
-              <point x="2920.0" y="0.0" />
-              <point x="2160.0" y="0.0" />
-              <point x="0.0" y="-35.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/components/intervalstats/IntervalStats.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/intervalstats/IntervalStats.js#getInterval#47;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/intervalstats/IntervalStats.js#getIntervalStats#106;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/intervalstats/IntervalStats.js#useState#15;" target="$PROJECT_DIR$/node_modules/@types/react/index.d.ts#useEffect#47285;useState;">
-              <point x="0.0" y="-57.0" />
-              <point x="0.0" y="35.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/components/intervalstats/IntervalStats.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/intervalstats/IntervalStats.js#getInterval#47;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/intervalstats/IntervalStats.js#getIntervalStats#106;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/intervalstats/IntervalStats.js#useState#15;" target="$PROJECT_DIR$/src/service/IntervalService.js#getInterval#704;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/service/IntervalService.js#getIntervals#128;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/service/IntervalService.js#saveInterval#1040;">
-              <point x="0.0" y="57.0" />
-              <point x="0.0" y="-46.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/components/user/Register.js#Client#35;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Register.js#Credentials#79;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Register.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Register.js#Redirect#128;" target="$PROJECT_DIR$/src/client/Client.js#Client#84;">
-              <point x="0.0" y="57.0" />
-              <point x="0.0" y="-24.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/components/interval/CreateInterval.js#Activity#169;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#AddActivity#47;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#CreateInterval#1446;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#Interval#179;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#addActivity#337;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#getActivityTypes#101;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#mapListFromModel#285;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#saveActivity#350;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#saveInterval#225;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#useState#15;" target="$PROJECT_DIR$/node_modules/@types/react/index.d.ts#useEffect#47285;useState;">
-              <point x="0.0" y="-134.0" />
-              <point x="1080.0" y="1251.4285714285713" />
-              <point x="-88.5" y="11.428571428571331" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/components/user/Register.js#Client#35;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Register.js#Credentials#79;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Register.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Register.js#Redirect#128;" target="$PROJECT_DIR$/src/models/models.js#Activity#1496;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/models/models.js#Credentials#0;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/models/models.js#Interval#247;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/models/models.js#Message#976;">
-              <point x="-71.0" y="-0.0" />
-              <point x="71.0" y="-0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/components/user/Login.js#Credentials#35;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Login.js#Message#48;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Login.js#Messages#151;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Login.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Login.js#addMessage#196;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Login.js#getAuthService#93;" target="$PROJECT_DIR$/node_modules/@types/react/index.d.ts#useEffect#47285;useState;">
-              <point x="73.0" y="-0.0" />
-              <point x="2146.6666666666665" y="280.0" />
-              <point x="-13.333333333333485" y="-35.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/components/interval/activities/AddActivity.js#AddActivity#803;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/activities/AddActivity.js#React#7;" target="$PROJECT_DIR$/node_modules/@types/react/index.d.ts#useEffect#47285;useState;">
-              <point x="0.0" y="-35.0" />
-              <point x="1560.0" y="1262.857142857143" />
-              <point x="-88.5" y="22.85714285714289" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/components/interval/IntervalDetails.js#Message#289;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#addMessage#232;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#getActivities#117;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#getInterval#58;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#mapSingleFromModel#178;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#parseDate#334;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#useEffect#15;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#useState#26;" target="$PROJECT_DIR$/src/service/MessageService.js#addMessage#328;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/service/MessageService.js#getMessages#56;">
-              <point x="0.0" y="-112.0" />
-              <point x="2720.0" y="40.0" />
-              <point x="40.0" y="40.0" />
-              <point x="40.0" y="480.0" />
-              <point x="-102.5" y="-0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/components/interval/CreateInterval.js#Activity#169;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#AddActivity#47;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#CreateInterval#1446;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#Interval#179;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#addActivity#337;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#getActivityTypes#101;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#mapListFromModel#285;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#saveActivity#350;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#saveInterval#225;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#useState#15;" target="$PROJECT_DIR$/src/service/ActivityService.js#addActivity#262;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/service/ActivityService.js#getActivities#399;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/service/ActivityService.js#saveActivity#101;">
-              <point x="106.0" y="40.0" />
-              <point x="1400.0" y="1760.0" />
-              <point x="0.0" y="-46.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/components/interval/CreateInterval.js#Activity#169;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#AddActivity#47;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#CreateInterval#1446;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#Interval#179;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#addActivity#337;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#getActivityTypes#101;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#mapListFromModel#285;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#saveActivity#350;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#saveInterval#225;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#useState#15;" target="$PROJECT_DIR$/src/ui/Interval.js#mapEndedFromModel#846;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/ui/Interval.js#mapListFromModel#294;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/ui/Interval.js#mapSingleFromModel#1248;">
-              <point x="0.0" y="134.0" />
-              <point x="0.0" y="-46.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/components/interval/Interval.js#CreateInterval#92;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#IntervalList#47;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#Message#258;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#Messages#433;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#addMessage#201;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#getIntervals#141;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#getTokenProvider#303;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#mapEndedFromModel#362;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#mapListFromModel#381;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#useState#15;" target="$PROJECT_DIR$/src/auth/TokenProvider.js#getTokenProvider#517;">
-              <point x="60.0" y="134.0" />
-              <point x="540.0" y="1040.0" />
-              <point x="-88.5" y="-0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/components/interval/Interval.js#CreateInterval#92;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#IntervalList#47;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#Message#258;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#Messages#433;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#addMessage#201;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#getIntervals#141;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#getTokenProvider#303;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#mapEndedFromModel#362;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#mapListFromModel#381;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#useState#15;" target="$PROJECT_DIR$/src/models/models.js#Activity#1496;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/models/models.js#Credentials#0;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/models/models.js#Interval#247;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/models/models.js#Message#976;">
-              <point x="0.0" y="134.0" />
-              <point x="480.0" y="2620.0" />
-              <point x="-71.0" y="-20.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/components/common/Navbar.js#Link#8;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/common/Navbar.js#React#47;" target="$PROJECT_DIR$/node_modules/react-router-dom/esm/react-router-dom.js#Link#5191;">
-              <point x="71.0" y="-0.0" />
-              <point x="-155.0" y="-0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/components/interval/Interval.js#CreateInterval#92;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#IntervalList#47;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#Message#258;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#Messages#433;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#addMessage#201;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#getIntervals#141;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#getTokenProvider#303;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#mapEndedFromModel#362;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#mapListFromModel#381;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#useState#15;" target="$PROJECT_DIR$/src/ui/Interval.js#mapEndedFromModel#846;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/ui/Interval.js#mapListFromModel#294;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/ui/Interval.js#mapSingleFromModel#1248;">
-              <point x="30.0" y="134.0" />
-              <point x="510.0" y="2240.0" />
-              <point x="-93.5" y="-0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/components/user/Logout.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Logout.js#getTokenProvider#35;" target="$PROJECT_DIR$/src/auth/TokenProvider.js#getTokenProvider#517;">
-              <point x="-81.0" y="-0.0" />
-              <point x="88.5" y="-0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/components/user/Logout.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Logout.js#getTokenProvider#35;" target="$PROJECT_DIR$/node_modules/@types/react/index.d.ts#useEffect#47285;useState;">
-              <point x="81.0" y="-0.0" />
-              <point x="2093.3333333333335" y="1040.0" />
-              <point x="-66.66666666666652" y="-35.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/components/interval/IntervalDetails.js#Message#289;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#addMessage#232;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#getActivities#117;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#getInterval#58;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#mapSingleFromModel#178;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#parseDate#334;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#useEffect#15;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#useState#26;" target="$PROJECT_DIR$/src/service/ActivityService.js#addActivity#262;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/service/ActivityService.js#getActivities#399;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/service/ActivityService.js#saveActivity#101;">
-              <point x="-40.0" y="112.0" />
-              <point x="2680.0" y="2000.0" />
-              <point x="106.0" y="-0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/components/interval/IntervalList.js#IntervalList#54;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalList.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalList.js#useEffect#15;" target="$PROJECT_DIR$/node_modules/@types/react/index.d.ts#useEffect#47285;useState;">
-              <point x="0.0" y="-46.0" />
-              <point x="760.0" y="1120.0" />
-              <point x="2080.0" y="1120.0" />
-              <point x="-80.0" y="-35.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/components/interval/CreateInterval.js#Activity#169;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#AddActivity#47;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#CreateInterval#1446;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#Interval#179;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#addActivity#337;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#getActivityTypes#101;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#mapListFromModel#285;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#saveActivity#350;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#saveInterval#225;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#useState#15;" target="$PROJECT_DIR$/src/components/interval/activities/AddActivity.js#AddActivity#803;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/activities/AddActivity.js#React#7;">
-              <point x="106.0" y="-0.0" />
-              <point x="-102.5" y="-0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/components/user/Login.js#Credentials#35;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Login.js#Message#48;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Login.js#Messages#151;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Login.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Login.js#addMessage#196;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Login.js#getAuthService#93;" target="$PROJECT_DIR$/src/components/common/Messages.js#Messages#99;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/common/Messages.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/common/Messages.js#getMessages#35;">
-              <point x="0.0" y="79.0" />
-              <point x="0.0" y="-46.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/components/interval/CreateInterval.js#Activity#169;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#AddActivity#47;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#CreateInterval#1446;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#Interval#179;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#addActivity#337;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#getActivityTypes#101;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#mapListFromModel#285;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#saveActivity#350;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#saveInterval#225;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#useState#15;" target="$PROJECT_DIR$/src/service/ActivityTypeService.js#getActivityTypes#105;">
-              <point x="-40.0" y="-134.0" />
-              <point x="1040.0" y="1520.0" />
-              <point x="120.0" y="-0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/components/interval/IntervalDetails.js#Message#289;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#addMessage#232;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#getActivities#117;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#getInterval#58;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#mapSingleFromModel#178;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#parseDate#334;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#useEffect#15;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#useState#26;" target="$PROJECT_DIR$/src/util/dateparser.js#parseDate#13;">
-              <point x="-53.333333333333485" y="112.0" />
-              <point x="2666.6666666666665" y="1320.0" />
-              <point x="78.0" y="-0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/components/common/Messages.js#Messages#99;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/common/Messages.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/common/Messages.js#getMessages#35;" target="$PROJECT_DIR$/node_modules/@types/react/index.d.ts#useEffect#47285;useState;">
-              <point x="78.0" y="-0.0" />
-              <point x="2133.3333333333335" y="480.0" />
-              <point x="-26.666666666666515" y="-35.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/components/interval/Interval.js#CreateInterval#92;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#IntervalList#47;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#Message#258;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#Messages#433;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#addMessage#201;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#getIntervals#141;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#getTokenProvider#303;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#mapEndedFromModel#362;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#mapListFromModel#381;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#useState#15;" target="$PROJECT_DIR$/src/components/interval/IntervalList.js#IntervalList#54;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalList.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalList.js#useEffect#15;">
-              <point x="50.0" y="134.0" />
-              <point x="530.0" y="1240.0" />
-              <point x="-99.0" y="-0.0" />
-            </edge>
-            <edge source="$PROJECT_DIR$/src/components/user/Login.js#Credentials#35;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Login.js#Message#48;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Login.js#Messages#151;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Login.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Login.js#addMessage#196;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Login.js#getAuthService#93;" target="$PROJECT_DIR$/src/service/MessageService.js#addMessage#328;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/service/MessageService.js#getMessages#56;">
-              <point x="-73.0" y="40.0" />
-              <point x="240.0" y="320.0" />
-              <point x="0.0" y="-35.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.2640646976090014" x="1664.0" y="1412.0" />
-          <SelectedNodes>
-            <node>$PROJECT_DIR$/src/ui/Interval.js#mapEndedFromModel#846;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/ui/Interval.js#mapListFromModel#294;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/ui/Interval.js#mapSingleFromModel#1248;</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>All</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>Details</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JavaScript-modules-diagram//Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -863,40 +595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/IntervalService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="34" column="2" lean-forward="true" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ui/Interval.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/interval/Interval.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="13" column="65" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/models/models.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1410">
-          <caret line="94" column="36" selection-start-line="94" selection-start-column="36" selection-end-line="94" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -906,17 +604,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/interval/activities/AddActivity.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="50" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/util/StatusTranslator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/interval/activities/AddActivity.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serviceWorker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/ActivityTypeService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -929,17 +641,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/IntervalStatsService.js">
+    <entry file="file://$PROJECT_DIR$/src/service/UserService.js" />
+    <entry file="file://$PROJECT_DIR$/src/service/User.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="300">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
+    <entry file="file://$PROJECT_DIR$/src/components/user/ChangePassword.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+        <state relative-caret-position="586">
+          <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+          <caret line="41" column="45" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
+          <caret line="45" column="45" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/interval/activities/IntervalActivities.js" />
+    <entry file="file://$PROJECT_DIR$/src/ui/Activity.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/interval/activities/ActivityList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="69" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/user/Logout.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/ActivityService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/Client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="87" column="47" selection-start-line="87" selection-start-column="47" selection-end-line="87" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/SavedActivityService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/common/TitlePanel.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/IntervalService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/common/Navbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
@@ -948,36 +740,206 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/interval/IntervalDetails.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
+        <state relative-caret-position="450">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/models.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="222" column="1" selection-start-line="222" selection-start-column="1" selection-end-line="222" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/intervalstats/IntervalStatsChart.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/typescript/lib/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="1342" column="4" selection-start-line="1342" selection-start-column="4" selection-end-line="1342" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/recharts/src/cartesian/CartesianGrid.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/ChartService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/interval/IntervalList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/IntervalStatsService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ui/Interval.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eventhandlers/IntervalEventHandler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="87" selection-start-line="6" selection-start-column="87" selection-end-line="6" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/intervalstats/IntervalStats.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/common/DeleteIntervalModal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="57" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram//Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/activities/ActivityList.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/activities/AddActivity.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalList.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/intervalstats/IntervalStats.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Login.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Logout.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Register.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/common/Messages.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/common/Navbar.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/common/TitlePanel.js;">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/components/interval/activities/ActivityList.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/activities/AddActivity.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalList.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/intervalstats/IntervalStats.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Login.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Logout.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Register.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/common/Messages.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/common/Navbar.js;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/common/TitlePanel.js;</OriginalElement>
+          <nodes>
+            <node x="" y="">$PROJECT_DIR$/src/components/interval/activities/ActivityList.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/activities/ActivityList.js#getUniqueActivities#58;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/activities/ActivityList.js#useEffect#15;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/activities/ActivityList.js#useState#26;</node>
+            <node x="" y="">$PROJECT_DIR$/src/service/ActivityService.js#addActivity#262;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/service/ActivityService.js#getActivities#399;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/service/ActivityService.js#getUniqueActivities#604;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/service/ActivityService.js#saveActivity#101;</node>
+            <node x="" y="">$PROJECT_DIR$/src/service/ActivityTypeService.js#getActivityTypes#105;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/interval/activities/AddActivity.js#AddActivity#803;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/activities/AddActivity.js#React#7;</node>
+            <node x="" y="">$PROJECT_DIR$/src/service/AuthService.js#getAuthService#296;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/recharts/types/cartesian/Bar.d.ts#Bar#2550;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/recharts/types/chart/BarChart.d.ts#BarChart#53;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/recharts/types/cartesian/CartesianGrid.d.ts#CartesianGrid#1163;</node>
+            <node x="" y="">$PROJECT_DIR$/src/service/ChartService.js#asCompletedToFailedBar#954;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/service/ChartService.js#asCompletedToFailedRatioOverTime#13;</node>
+            <node x="" y="">$PROJECT_DIR$/src/client/Client.js#Client#84;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/interval/CreateInterval.js#Activity#169;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#AddActivity#47;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#CreateInterval#1503;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#Interval#179;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#Message#189;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#addActivity#346;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#addMessage#419;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#getActivityTypes#101;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#mapListFromModel#294;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#saveActivity#359;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#saveInterval#234;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/CreateInterval.js#useState#15;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/interval/Interval.js#CreateInterval#92;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#IntervalList#47;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#Message#258;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#Messages#433;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#addMessage#201;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#getIntervals#141;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#getTokenProvider#303;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#mapEndedFromModel#362;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#mapListFromModel#381;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/Interval.js#useState#15;</node>
+            <node x="" y="">$PROJECT_DIR$/src/ui/Interval.js#mapEndedFromModel#1283;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/ui/Interval.js#mapListFromModel#417;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/ui/Interval.js#mapSingleFromModel#1710;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/interval/IntervalDetails.js#Message#289;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#addMessage#232;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#getActivities#117;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#getInterval#58;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#mapSingleFromModel#178;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#parseDate#334;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#useEffect#15;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalDetails.js#useState#26;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/interval/IntervalList.js#IntervalList#54;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalList.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/interval/IntervalList.js#useEffect#15;</node>
+            <node x="" y="">$PROJECT_DIR$/src/service/IntervalService.js#getInterval#677;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/service/IntervalService.js#getIntervals#101;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/service/IntervalService.js#saveInterval#1013;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/intervalstats/IntervalStats.js#Bar#299;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/intervalstats/IntervalStats.js#BarChart#304;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/intervalstats/IntervalStats.js#CartesianGrid#314;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/intervalstats/IntervalStats.js#Legend#329;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/intervalstats/IntervalStats.js#Line#337;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/intervalstats/IntervalStats.js#LineChart#343;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/intervalstats/IntervalStats.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/intervalstats/IntervalStats.js#Tooltip#354;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/intervalstats/IntervalStats.js#XAxis#363;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/intervalstats/IntervalStats.js#YAxis#370;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/intervalstats/IntervalStats.js#asCompletedToFailedBar#198;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/intervalstats/IntervalStats.js#asCompletedToFailedRatioOverTime#222;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/intervalstats/IntervalStats.js#getInterval#58;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/intervalstats/IntervalStats.js#getIntervalStats#117;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/intervalstats/IntervalStats.js#groupStats#135;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/intervalstats/IntervalStats.js#useEffect#15;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/intervalstats/IntervalStats.js#useState#26;</node>
+            <node x="" y="">$PROJECT_DIR$/src/service/IntervalStatsService.js#getIntervalStats#122;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/service/IntervalStatsService.js#groupStats#441;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/recharts/types/component/Legend.d.ts#Legend#635;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/recharts/types/cartesian/Line.d.ts#Line#1963;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/recharts/types/chart/LineChart.d.ts#LineChart#53;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/user/Login.js#Credentials#35;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Login.js#Message#48;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Login.js#Messages#151;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Login.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Login.js#addMessage#196;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Login.js#getAuthService#93;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/user/Logout.js#getTokenProvider#8;</node>
+            <node x="" y="">$PROJECT_DIR$/src/service/MessageService.js#addMessage#328;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/service/MessageService.js#getMessages#56;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/common/Messages.js#Messages#99;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/common/Messages.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/common/Messages.js#getMessages#35;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/common/Navbar.js#Link#8;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/common/Navbar.js#React#47;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/user/Register.js#Client#35;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Register.js#Credentials#79;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Register.js#React#7;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/components/user/Register.js#Redirect#128;</node>
+            <node x="" y="">$PROJECT_DIR$/src/components/common/TitlePanel.js#React#7;</node>
+            <node x="" y="">$PROJECT_DIR$/src/auth/TokenProvider.js#getTokenProvider#517;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/recharts/types/component/Tooltip.d.ts#Tooltip#1501;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/recharts/types/cartesian/XAxis.d.ts#XAxis#606;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/recharts/types/cartesian/YAxis.d.ts#YAxis#601;</node>
+            <node x="" y="">$PROJECT_DIR$/src/util/dateparser.js#parseDate#13;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@types/react/index.d.ts#useEffect#47285;useState;</node>
+            <node x="" y="">$PROJECT_DIR$/src/models/models.js#Activity#1496;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/models/models.js#Credentials#0;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/models/models.js#Interval#247;/Users/stachu/Programowanie/JS/Activities-front/activities-front/src/models/models.js#Message#976;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-router-dom/esm/react-router-dom.js#Link#5191;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/react-router/esm/react-router.js#Redirect#7567;</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.2640646976090014" x="1664.0" y="1030.109187749667" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/interval/CreateInterval.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        <state relative-caret-position="213">
+          <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/interval/IntervalList.js">
+    <entry file="file://$PROJECT_DIR$/src/service/MessageService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        <state relative-caret-position="60">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/intervalstats/IntervalStats.js">
+    <entry file="file://$PROJECT_DIR$/src/components/common/Messages.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        <state relative-caret-position="105">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/interval/Interval.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="75" column="35" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/user/Profile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,10 +1,11 @@
 import React, {useState} from 'react';
 import {AddActivity} from "./activities/AddActivity";
 import {getActivityTypes} from "../../service/ActivityTypeService";
-import {Activity, Interval} from "../../models/models";
+import {Activity, Interval, Message} from "../../models/models";
 import {saveInterval} from "../../service/IntervalService";
 import {mapListFromModel} from "../../ui/Interval";
 import {addActivity, saveActivity} from "../../service/ActivityService";
+import {addMessage} from "../../service/MessageService";
 
 const saveNewInterval = async refs => { //@todo: stop using refs, instead search via DOM; move to event handler
     const {nameInput, dateStartInput, dateEndInput, activities} = refs;
@@ -46,11 +47,15 @@ export const CreateInterval = props => {
     const dateStartInput = React.createRef();
     const dateEndInput = React.createRef();
     const [activities, setActivities] = useState([]);
-    const onIntervalAdd = e => {    //todo move to IntervalEventHandler
-        e.preventDefault();
-        saveNewInterval({nameInput, dateStartInput, dateEndInput, activities}).then(interval => {
-            props.setIntervals([...props.intervals, mapListFromModel(interval, props.intervals.length)]);
-        });
+    const onIntervalAdd = e => {
+        if (/\S/.test(nameInput.current.value) && dateStartInput.current.value && dateEndInput.current.value) {
+            e.preventDefault();
+            saveNewInterval({nameInput, dateStartInput, dateEndInput, activities}).then(interval => {
+                props.setIntervals([...props.intervals, mapListFromModel(interval, props.intervals.length)]);
+            });
+        } else {
+            addMessage('interval', new Message('danger', 'Nieprawidłowe dane w interwale'));
+        }
     };
 
     return (
@@ -61,19 +66,22 @@ export const CreateInterval = props => {
                     <form onSubmit={onIntervalAdd}>
                         <div className='form-group'>
                             <label>Nazwa interwału</label>
-                            <input type='text' className='form-control' ref={nameInput}/>
+                            <input required type='text' className='form-control' ref={nameInput}/>
                         </div>
                         <div className='form-group'>
                             <label>Data rozpoczęcia</label>
-                            <input required type='date' placeholder='yyyy-mm-dd' className='form-control' ref={dateStartInput}/>
+                            <input required type='date' placeholder='yyyy-mm-dd' className='form-control'
+                                   ref={dateStartInput}/>
                         </div>
                         <div className='form-group'>
                             <label>Data zakończenia</label>
-                            <input required type='date' placeholder='yyyy-mm-dd' className='form-control' ref={dateEndInput}/>
+                            <input required type='date' placeholder='yyyy-mm-dd' className='form-control'
+                                   ref={dateEndInput}/>
                         </div>
                         <p>Aktywności</p>
                         <AddActivity activities={activities} setActivities={setActivities} getTypes={getActivityTypes}/>
-                        <br/><button type='submit' className="btn btn-success float-right">Stwórz interwał</button>
+                        <br/>
+                        <button type='submit' className="btn btn-success float-right">Stwórz interwał</button>
                     </form>
                 </div>
             </div>

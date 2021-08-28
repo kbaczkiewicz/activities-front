@@ -12,18 +12,30 @@ export const addActivity = async (intervalId, activityId) => {
 
 export const getActivities = async (intervalId, filters = []) => {
     const activitiesData = await getClient().getActivities(intervalId, filters.join('&'));
+
+    return mapActivities(activitiesData);
+};
+
+export const getUniqueActivities = async(intervalId) => {
+    const activitiesData = await getClient().getUniqueActivities(intervalId);
+
+    return mapActivities(activitiesData);
+}
+
+export const markActivityAsDone = activityId => {
+    return getClient().markActivityAsDone(activityId);
+};
+
+const mapActivities = activitiesData => {
     try {
         return activitiesData.data.map(activityData => new Activity(
             activityData.id,
             activityData.name,
             activityData.type,
-            activityData.dateStart
-            ));
+            activityData.dateStart,
+            activityData.occurrences
+        ));
     } catch (e) {
         return [];
     }
-};
-
-export const markActivityAsDone = activityId => {
-    return getClient().markActivityAsDone(activityId);
-};
+}

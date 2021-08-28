@@ -1,4 +1,3 @@
-import React from 'react';
 import {getTokenProvider} from "../../auth/TokenProvider";
 
 const useOnLogoutAction = () => {

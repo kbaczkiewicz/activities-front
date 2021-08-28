@@ -1,6 +1,5 @@
 import {getClient} from "../client/Client";
 import {Interval} from "../models/models";
-import React from "react";
 
 export const getIntervals = async (filters = []) => {
     const intervalData = await getClient().getIntervals(filters.join('&'));

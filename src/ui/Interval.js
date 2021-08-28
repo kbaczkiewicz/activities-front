@@ -1,7 +1,11 @@
 import React from "react";
-import {onIntervalClick, onIntervalDelete, onIntervalStatsShow} from "../eventhandlers/IntervalEventHandler";
+import {onIntervalClick, onIntervalStatsShow} from "../eventhandlers/IntervalEventHandler";
 import {mapFromModelAsColumnList, mapFromModelAsTextList} from "./Activity";
 import {translateIntervalStatus} from "../util/StatusTranslator";
+
+const onDeleteButtonClick = e => {
+    document.querySelector('#confirmDeleteInterval').dataset.intervalId = e.target.dataset.intervalId
+};
 
 export const mapListFromModel = (interval, key) => (
     <tr key={key} id={`interval-${interval.id}`}>
@@ -11,7 +15,18 @@ export const mapListFromModel = (interval, key) => (
         <td>{interval.dateEnd}</td>
         <td>
             <button className='btn btn-info btn-sm' data-id={interval.id} onClick={onIntervalClick}>O</button>
-            {'started' !== interval.status ? (<button className='btn btn-danger btn-sm' data-id={interval.id} onClick={onIntervalDelete}>X</button>) : ''}
+            {'started' !== interval.status ? (
+                <button
+                    type='button'
+                    className='btn btn-danger btn-sm'
+                    data-interval-id={interval.id}
+                    data-toggle='modal'
+                    data-target='#deleteIntervalModal'
+                    onClick={onDeleteButtonClick}
+                >
+                    X
+                </button>) :
+                ''}
         </td>
     </tr>
 );

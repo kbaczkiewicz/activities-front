@@ -66,7 +66,26 @@ export class Client {
 
     getIntervalStats(intervalId) {
         return this._make_action(`intervalStats/${intervalId}`, [], 'get')
+    }
 
+    getProfile() {
+        return this._make_action('account', [], 'get');
+    }
+
+    changePassword(oldPassword, password, passwordRepeat) {
+        return this._make_action(
+            'account',
+            {oldPassword: oldPassword, password: password, passwordRepeat: passwordRepeat},
+            'patch'
+        );
+    }
+
+    getUniqueActivities(intervalId) {
+        return this._make_action(`activity/${intervalId}/unique`, {}, 'get');
+    }
+
+    getSavedActivities() {
+        return this._make_action('savedActivity', {}, 'get');
     }
 
     _make_action(url, data, method) {

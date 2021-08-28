@@ -34,10 +34,12 @@ export const IntervalDetails = props => {
         <div className="container">
             <div className='row'>
                 <div className='col'>
-                    <a className="btn btn-sm btn-outline-primary" href='/intervals'>{'<<'}</a>
                     <h1>Szczegóły interwału</h1>
                     <hr />
                     {interval}
+                </div>
+                <div className='col-2 offset-10'>
+                    <a href={`/interval/${intervalId}/activities`} className='btn btn-info'>Wystąpienia aktywności</a>
                 </div>
             </div>
         </div>
