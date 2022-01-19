@@ -17,8 +17,8 @@ const createRatioChart = data => {
                 <YAxis/>
                 <Tooltip/>
                 <Legend/>
-                <Line type="monotone" dataKey="fp" name="% ukończonych aktywności" stroke="#cc0000"/>
-                <Line type="monotone" dataKey="cp" name="% nieukończonych aktywności" stroke="#00cc00"/>
+                <Line type="monotone" dataKey="fp" name="% ukończonych aktywności" stroke="#00cc00"/>
+                <Line type="monotone" dataKey="cp" name="% nieukończonych aktywności" stroke="#cc0000"/>
             </LineChart>)
         )
     });
@@ -36,8 +36,8 @@ const createBarChart = data => {
                 <YAxis/>
                 <Tooltip/>
                 <Legend/>
-                <Bar dataKey="failed" name="Nieukończone aktywności" fill="#00cc00"/>
-                <Bar dataKey="completed" name="Ukończone aktywności" fill="#cc0000"/>
+                <Bar dataKey="failed" name="Nieukończone aktywności" fill="#cc0000"/>
+                <Bar dataKey="completed" name="Ukończone aktywności" fill="#00cc00"/>
             </BarChart>
         );
     });
