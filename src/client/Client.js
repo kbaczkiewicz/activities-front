@@ -5,7 +5,7 @@ export class Client {
     constructor() {
         const token = getTokenProvider().getToken();
         this._client = axios.create({
-            baseURL: 'http://localhost/api/',
+            baseURL: 'http://api.activitytracker.online/api/',
             timeout: 9000,
             headers: {'Content-type': 'application/json', 'Authorization': token ? 'Bearer ' + token : null},
         });
